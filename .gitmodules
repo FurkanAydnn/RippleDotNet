@@ -1,3 +1,0 @@
-[submodule "src/ripple-dot-net"]
-	path = src/ripple-dot-net
-	url = https://github.com/BTC-Development/ripple-dot-net.git

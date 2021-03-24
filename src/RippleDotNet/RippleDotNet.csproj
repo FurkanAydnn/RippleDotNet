@@ -4,16 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>RippleDotNet</AssemblyName>
     <RootNamespace>RippleDotNet</RootNamespace>
-    <Authors>Chris Williams</Authors>
-    <Company>CloudScope, LLC</Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
     <Description>Ripple.APICore is a C# NetStandard 2.0 client implementation for the Ripple WebSocket APIs.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/chriswill/RippleDotNet</RepositoryUrl>
-    <Copyright>Copyright 2021, CloudScope, LLC</Copyright>
+    <RepositoryUrl>https://github.com/BTCTrader/RippleDotNet</RepositoryUrl>
+    <Copyright>Copyright 2021, BTCTrader</Copyright>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageId>Ripple.APICore</PackageId>
-    <Product>Ripple.APICore</Product>
+    <PackageId>BTCTrader.RippleDotNet</PackageId>
+    <Product>BTCTrader.RippleDotNet</Product>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Version>1.0.1</Version>
   </PropertyGroup>
@@ -23,6 +23,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BTCTrader.Ripple.Core" Version="0.1.0" />
+    <PackageReference Include="BTCTrader.Ripple.TxSigning" Version="0.1.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
@@ -39,10 +41,4 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ripple-dot-net\Ripple.Core\Ripple.Core.csproj" />
-    <ProjectReference Include="..\ripple-dot-net\Ripple.TxSigning\Ripple.TxSigning.csproj" />
-  </ItemGroup>
-
 </Project>
