@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\RippleDotNet\RippleDotNet.csproj" />
-    <ProjectReference Include="..\src\ripple-dot-net\Ripple.Core\Ripple.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
