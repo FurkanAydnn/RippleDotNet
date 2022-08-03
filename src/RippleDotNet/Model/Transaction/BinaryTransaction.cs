@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using RippleDotNet.Model.Transaction.TransactionTypes;
 
 namespace RippleDotNet.Model.Transaction
 {

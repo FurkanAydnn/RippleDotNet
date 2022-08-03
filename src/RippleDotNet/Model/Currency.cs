@@ -1,7 +1,5 @@
-﻿using System.Dynamic;
-using System.Globalization;
+﻿using System.Globalization;
 using Newtonsoft.Json;
-using RippleDotNet.Json.Converters;
 
 namespace RippleDotNet.Model
 {

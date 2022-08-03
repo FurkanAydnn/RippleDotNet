@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Dynamic;
 using System.Net.WebSockets;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -8,7 +7,6 @@ using RippleDotNet.Exceptions;
 using RippleDotNet.Model.Account;
 using RippleDotNet.Model.Ledger;
 using RippleDotNet.Model.Server;
-using RippleDotNet.Model.Transaction.TransactionTypes;
 using RippleDotNet.Requests;
 using RippleDotNet.Requests.Account;
 using RippleDotNet.Requests.Ledger;

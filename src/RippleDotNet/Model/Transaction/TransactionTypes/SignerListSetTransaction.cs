@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using RippleDotNet.Model.Ledger;
 using RippleDotNet.Model.Ledger.Objects;
 using RippleDotNet.Model.Transaction.Interfaces;
 

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 using RippleDotNet.Json.Converters;
-using RippleDotNet.Model.Transaction;
 using RippleDotNet.Model.Transaction.TransactionTypes;
 using RippleDotNet.Responses.Transaction.TransactionTypes;
 

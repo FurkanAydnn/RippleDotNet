@@ -1,7 +1,6 @@
 ﻿using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using RippleDotNet.Model.Ledger;
 using RippleDotNet.Model.Ledger.Objects;
 
 namespace RippleDotNet.Json.Converters

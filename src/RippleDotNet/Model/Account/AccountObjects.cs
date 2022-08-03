@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using Newtonsoft.Json;
-using RippleDotNet.Json.Converters;
-using RippleDotNet.Model.Ledger;
 using RippleDotNet.Model.Ledger.Objects;
 
 namespace RippleDotNet.Model.Account

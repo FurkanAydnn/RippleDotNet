@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using RippleDotNet.Model.Transaction.Interfaces;
-using RippleDotNet.Model.Transaction.TransactionTypes;
 
 namespace RippleDotNet.Requests.Transaction
 {
